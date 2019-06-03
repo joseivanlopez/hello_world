@@ -1,7 +1,5 @@
-require_relative "world_greeter"
+require_relative "greets"
 
-greeter = WorldGreeter.new
+puts Greets::HelloWorld.new.text
 
-puts greeter.hello
-
-puts greeter.good_morning
+puts Greets::GoodMorningWorld.new.text

@@ -1,2 +1,7 @@
+require_relative "world_greeter"
 
-puts "Hello World!"
+greeter = WorldGreeter.new
+
+greeter.hello
+
+greeter.good_morning

@@ -2,6 +2,6 @@ require_relative "world_greeter"
 
 greeter = WorldGreeter.new
 
-greeter.hello
+puts greeter.hello
 
-greeter.good_morning
+puts greeter.good_morning

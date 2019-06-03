@@ -1,9 +1,11 @@
-class WorldGreeter
+require_relative "greeter"
+
+class WorldGreeter < Greeter
   def hello
-    puts "Hello, World!"
+    super + ", World!"
   end
 
   def good_morning
-    puts "Good morning, World!"
+    super + ", World!"
   end
 end

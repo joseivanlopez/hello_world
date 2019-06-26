@@ -4,4 +4,4 @@ puts Greets::HelloWorld.new.text
 
 puts Greets::GoodMorningWorld.new.text
 
-puts Greets::HolaAmigo.new.text
+puts Greets::HolaAmigo.new.text# a comment
